@@ -13,7 +13,7 @@ node(){
      ]
     ],
      causeString: 'Triggered on $ref',
-    regexpFilterText: '$repository $ref',
+    //regexpFilterText: '$repository $ref',
     //regexpFilterExpression: 'building-a-multibranch-pipeline-project refs/heads/' + BRANCH_NAME,
      printContributedVariables: true,
      printPostContent: true,
