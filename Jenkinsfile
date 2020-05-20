@@ -12,26 +12,13 @@ node(){
       defaultValue: '' //Optional, defaults to empty string
      ]
     ],
-    genericRequestVariables: [
-     [key: 'requestWithNumber', regexpFilter: '[^0-9]'],
-     [key: 'requestWithString', regexpFilter: '']
-    ],
-    genericHeaderVariables: [
-     [key: 'headerWithNumber', regexpFilter: '[^0-9]'],
-     [key: 'headerWithString', regexpFilter: '']
-    ],
-
-    causeString: 'Triggered on $ref',
-
-    token: 'abc123',
-
-    printContributedVariables: true,
-    printPostContent: true,
-
-    silentResponse: false,
-
-    regexpFilterText: '$ref',
-    regexpFilterExpression: 'refs/heads/' + BRANCH_NAME
+     causeString: 'Triggered on $ref',
+     regexpFilterExpression: 'generic $ref',
+     regexpFilterText: '$repository refs/heads/' + BRANCH_NAME,
+     printContributedVariables: true,
+     printPostContent: true
+     token: 'abc123',
+     silentResponse: false,
    ]
   ])
  ])
