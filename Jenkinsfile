@@ -14,7 +14,7 @@ node(){
     ],
      causeString: 'Triggered on $ref',
      regexpFilterText: '$repository $ref',
-    regexpFilterExpression: 'generic refs/heads/' + BRANCH_NAME,
+    regexpFilterExpression: 'building-a-multibranch-pipeline-project refs/heads/' + BRANCH_NAME,
      printContributedVariables: true,
      printPostContent: true
      token: 'abc123',
