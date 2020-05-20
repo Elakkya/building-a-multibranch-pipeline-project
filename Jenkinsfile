@@ -17,7 +17,7 @@ node(){
     //regexpFilterExpression: 'building-a-multibranch-pipeline-project refs/heads/' + BRANCH_NAME,
      printContributedVariables: true,
      printPostContent: true,
-     token: 'abc123',
+     //token: 'abc123',
      silentResponse: false,   
    ]
   ])
