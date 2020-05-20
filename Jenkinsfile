@@ -13,8 +13,8 @@ node(){
      ]
     ],
      causeString: 'Triggered on $ref',
-     regexpFilterText: '$ref',
-    regexpFilterExpression: 'refs/heads/' + BRANCH_NAME,
+     regexpFilterText: '$repository $ref',
+    regexpFilterExpression: 'generic refs/heads/' + BRANCH_NAME,
      printContributedVariables: true,
      printPostContent: true
      token: 'abc123',
